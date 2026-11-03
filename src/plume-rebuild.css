@@ -1,5 +1,5 @@
-/* Aurore Plume — extension de l'identité visuelle d'Aurore Mémoire.
-   La base style.css est copiée du dépôt Aurore Mémoire ; ce fichier ajoute les vues propres à Plume. */
+/* Eneles Plume — extension de l'identité visuelle d'Eneles Mémoire.
+   La base style.css est copiée du dépôt Eneles Mémoire ; ce fichier ajoute les vues propres à Plume. */
 .plume-shell{padding-bottom:42px}
 .plume-main{padding-top:26px}
 .plume-mini-hero{padding:clamp(28px,5vw,54px) 0 28px;max-width:800px}
@@ -149,7 +149,7 @@
 @media(max-width:380px){.plume-space-mark{flex-basis:52px!important;width:52px!important;height:42px!important}}
 
 
-/* Aurore Plume — Atelier personnel, langage visuel neumorphique (référence 2:3).
+/* Eneles Plume — Atelier personnel, langage visuel neumorphique (référence 2:3).
    Surfaces douces, relief discret, contrôles tactiles et focus accessible. */
 .plume-main{--atelier-radius:22px;--atelier-shadow-light:8px 8px 18px rgba(45,39,54,.13),-7px -7px 18px rgba(255,255,255,.88);--atelier-inset-light:inset 3px 3px 7px rgba(45,39,54,.13),inset -3px -3px 7px rgba(255,255,255,.9)}
 :root[data-theme="light"] .plume-main{color:#282630}
@@ -196,7 +196,7 @@
 @media(prefers-reduced-motion:reduce){.plume-btn,.plume-field input,.plume-field select,.plume-field textarea,.plume-bottom-nav button{transition:none!important}}
 
 
-/* Aurore Plume — relief doux et palette appliquée aux surfaces uniquement.
+/* Eneles Plume — relief doux et palette appliquée aux surfaces uniquement.
    Le fond global reste celui du thème Clair/Sombre défini dans plume-memoire-theme.css. */
 :root[data-theme="light"] .plume-main>.plume-mini-hero,
 :root[data-theme="light"] .plume-main>.plume-editor-card,

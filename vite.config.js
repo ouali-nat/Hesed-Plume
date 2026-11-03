@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 
 // Remplace, à la compilation, l'ancien lecteur PDF simplifié de src/main.js
 // (du `let plumePdfDocument=null,` jusqu'à `async function openRead`) par des
-// appels au lecteur cloné d'Aurore Archives (src/aurore-archives-pdf-reader.js).
+// appels au lecteur cloné d'Eneles Archives (src/aurore-archives-pdf-reader.js).
 // Si les repères ne sont pas retrouvés, main.js est laissé tel quel (aucune casse).
 function archivesReaderSwap() {
   const START = 'let plumePdfDocument=null,';

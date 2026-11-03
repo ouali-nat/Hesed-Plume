@@ -1,4 +1,4 @@
-/* Aurore Plume — modes clair/sombre/système et palette inspirée d’Aurore Archives. */
+/* Eneles Plume — modes clair/sombre/système et palette inspirée d’Eneles Archives. */
 const THEME_KEY='auraster-theme', COLOR_KEY='auraster-color-theme';
 const systemLight=window.matchMedia('(prefers-color-scheme: light)');
 const PALETTES=[

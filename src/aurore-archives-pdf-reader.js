@@ -165,7 +165,7 @@ export async function openArchivesPdfReader(blob, options = {}) {
     await renderPage(1);updatePage(1,false);await renderVisible();
     if(resizeHandler)window.removeEventListener('resize',resizeHandler);resizeHandler=()=>renderVisible(true);window.addEventListener('resize',resizeHandler,{passive:true});
   } catch(error) {
-    console.error('Lecteur PDF Aurore Plume',error);
+    console.error('Lecteur PDF Eneles Plume',error);
     const loadingEl=overlay.querySelector('#pdfViewerLoading');loadingEl.hidden=true;loadingEl.style.setProperty('display','none','important');const box=overlay.querySelector('#pdfViewerError');box.hidden=false;box.style.setProperty('display','block','important');box.textContent='Impossible d’ouvrir ce PDF. Vérifie le fichier puis réessaie.';const progressEl=overlay.querySelector('#pdfViewerProgress');progressEl.classList.remove('is-visible');progressEl.hidden=true;progressEl.style.setProperty('display','none','important');overlay.querySelector('#pdfViewerSphere').hidden=true;
     progress(0,'Ouverture impossible');
   }
