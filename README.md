@@ -1,6 +1,6 @@
-# Aurore Plume
+# Eneles Plume
 
-**L'atelier où les idées deviennent des histoires.** Aurore Plume est un espace francophone d'écriture et de publication littéraire : découverte des textes, atelier personnel et circuit de relecture humaine.
+**L'atelier où les idées deviennent des histoires.** Eneles Plume est un espace francophone d'écriture et de publication littéraire : découverte des textes, atelier personnel et circuit de relecture humaine.
 
 ## Stack
 - Vite 8 + JavaScript moderne
