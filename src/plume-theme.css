@@ -1,4 +1,4 @@
-/* Eneles Plume — couleurs adaptatives et finition cohérente pour tous les panneaux. */
+/* Hesed Plume — couleurs adaptatives et finition cohérente pour tous les panneaux. */
 :root{--plume-bg:#eeeeF1;--plume-surface:#f5f5f7;--plume-surface-raised:#fafafc;--plume-surface-soft:#e7e7ed;--plume-ink:#292932;--plume-muted:#696974;--plume-border:#d8d8e0;--plume-shadow:0 12px 34px rgba(40,28,54,.08);}
 html[data-color-theme="violet"]{--theme-primary:#8B5CF6;--theme-secondary:#C084FC;--theme-strong:#6D28D9}
 html[data-color-theme="rouge"]{--theme-primary:#E05260;--theme-secondary:#FF8A96;--theme-strong:#C93648}
